@@ -1,86 +1,121 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Roberto Belotti, Full Stack Web Developer</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<head>
+    <meta charset="utf-8">
+    <title>Roberto Belotti, Full Stack Web Developer</title>
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                color: #B0BEC5;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-                background-image: linear-gradient(40deg, #101010 0%, #333333 100%);
-            }
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
 
-            a {
-                text-decoration: none;
-                color: #aaa;
-            }
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            color: #B0BEC5;
+            display: table;
+            font-weight: 100;
+            font-family: 'Lato';
+            background-image: linear-gradient(40deg, #101010 0%, #333333 100%);
+        }
 
-            a:hover {
-                color: #fff;
-            }
+        a {
+            text-decoration: none;
+            color: #aaa;
+        }
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
+        a:hover {
+            color: #fff;
+        }
 
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
+        .container {
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
 
-            .title {
-                font-size: 72px;
-                margin-bottom: 40px;
-            }
-            .subtitle {
-                font-size: 36px;
-                margin-bottom: 40px;
-            }
-        </style>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5439279-34"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+        .content {
+            text-align: center;
+            display: inline-block;
+        }
 
-            gtag('config', 'UA-5439279-34');
+        .title {
+            font-size: 72px;
+            margin-bottom: 40px;
+        }
+
+        .subtitle {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5439279-34"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-5439279-34');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="title">Roberto Belotti</div>
+            <div class="subtitle">Senior Full Stack Web Developer</div>
+            <p><em>Sliema - Malta</em></p>
+            <p>
+                info@robertobelotti.com
+            </p>
+            <p>
+                <a href="https://github.com/biscolab" target="_blank" onclick="handleOutboundLinkClicks(event)">
+                    <i class="fa fa-2x fa-fw fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/robertobelotti/" target="_blank"
+                    onclick="handleOutboundLinkClicks(event)">
+                    <i class="fa fa-2x fa-fw fa-linkedin"></i>
+                </a>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <!-- Quantcast Tag -->
+        <script type="text/javascript">
+            var _qevents = _qevents || [];
+
+            (function () {
+                var elem = document.createElement('script');
+                elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+                elem.async = true;
+                elem.type = "text/javascript";
+                var scpt = document.getElementsByTagName('script')[0];
+                scpt.parentNode.insertBefore(elem, scpt);
+            })();
+
+            _qevents.push({
+                qacct: "p-znnXjSuFe3BUk",
+                uid: "__INSERT_EMAIL_HERE__"
+            });
         </script>
 
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Roberto Belotti</div>
-                <div class="subtitle">Senior Full Stack Web Developer</div>
-                <p><em>Sliema - Malta</em></p>
-                <p>
-                    info@robertobelotti.com
-                </p>
-                <p>
-                    <a href="https://github.com/biscolab" target="_blank" onclick="handleOutboundLinkClicks(event)">
-                        <i class="fa fa-2x fa-fw fa-github"></i>
-                    </a>                    
-                    <a href="https://www.linkedin.com/in/robertobelotti/" target="_blank" onclick="handleOutboundLinkClicks(event)">
-                        <i class="fa fa-2x fa-fw fa-linkedin"></i>
-                    </a>
-                </p>
+        <noscript>
+            <div style="display:none;">
+                <img src="//pixel.quantserve.com/pixel/p-znnXjSuFe3BUk.gif" border="0" height="1" width="1"
+                    alt="Quantcast" />
             </div>
-        </div>
-    </body>
+        </noscript>
+        <!-- End Quantcast tag -->
+    </footer>
+</body>
+
 </html>
